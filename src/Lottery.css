@@ -1,0 +1,24 @@
+.lBox{
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    font-size: 100px;
+}
+.lBox .lNum:nth-child(1){
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+.lBox .lNum:nth-child(3){
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+.lNum{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+}

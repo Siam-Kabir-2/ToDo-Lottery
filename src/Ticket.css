@@ -1,0 +1,7 @@
+.Ticket{
+    display: flex;
+    border: 5px solid white;
+}
+.Ticket .TicketName:nth-child(1){
+    border: 50px solid red;
+}
